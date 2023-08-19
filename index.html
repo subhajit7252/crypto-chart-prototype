@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@900&display=swap">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-time Chart with Chart.js</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+<canvas id="crypto-chart"></canvas>
+<div id="currentData">
+    $<span id="currentValue">Loading...</span>
+    <span id="percentageChange" style="font-size: 1.5em;"></span>
+    <div id="minMaxValue"></div>   
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
